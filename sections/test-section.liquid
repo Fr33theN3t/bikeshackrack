@@ -1,0 +1,47 @@
+<section class="custom-text-section">
+  <div class="container">
+    <h2>{{ section.settings.heading_text }}</h2>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Heading",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Your Custom Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Heading",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.custom-text-section {
+  padding: 40px 0;
+}
+
+.custom-text-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.custom-text-section h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+{% endstylesheet %}
+
+{% javascript %}
+// Add any necessary JavaScript here
+{% endjavascript %}
