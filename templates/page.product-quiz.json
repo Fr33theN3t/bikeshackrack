@@ -2,8 +2,7 @@
   "sections": {
     "quiz": {
       "type": "main-quiz",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
