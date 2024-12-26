@@ -7,9 +7,16 @@ quiz_form.addEventListener("change", updateAnswers);
 function updateAnswers(event) {
   //code to store answers
 
+  let quizInput = event.target;
+  answers[quizInput.name] = event.target.value;
 
+  // console.log("answers: ", answers);
+  // console.log("event: ", event);
+  // console.log("value: ", event.target.value);
+  // console.log("name: ", event.target.name);
 
-  console.log("answers: ", answers);
+  // console.log(answers[event.target.name] = event.target.value)
+
 }
 
 
