@@ -70,6 +70,7 @@ function display_question(questionIndex) {
 
 }
 
+
 // initialize display and update functions
 displayQuestion(current_question_index);
 updateButtonStates(current_question_index);
