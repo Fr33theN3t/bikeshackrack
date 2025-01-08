@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-
-  // variables
   const finish_btn = document.getElementById("finish-button");
   const prev_btn = document.querySelector('#prev-button');
   const next_btn = document.querySelector('#next-button');
   const quiz_form = document.querySelector("#quizForm");
   const answers = {};
 
-  // set question index to 0
   let current_question_index = 0;
   const question_containers = quiz_form.querySelectorAll('.question-container');
   const total_questions = question_containers.length;
@@ -51,25 +48,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function display_question(questionIndex) {
     let currentQuestion = questions[questionIndex];
-    let selected_answer = answers[currentQuestion.name] || '';
-    let question_html = `    
-
-      <h2>${currentQuestion.text}</h2>
-      <div class="label-container">
-        ${currentQuestion.options.map(option => `
-          <input ${option.value === selected_answer ? 'checked' : ''} type="radio" id="${option.value}" name="${currentQuestion.name}" value="${option.value}">
-        <label for="${option.value}">
-          <div class="img-wrap">
-            <img src="${option.img}">
-          </div>
-          <span>${option.label}</span>
-        </label>
-      `).join('')} 
-    </div>
-    `;
-
-    quiz_form.innerHTML = question_html;
-  };
+    question_containers.forEach((container, index) => {
+      if (index === questionIndex) {
+        container.style.display = 'block';
+      } else {
+        container.style.display = 'none';
+      }
+    });
+    console.log(currentQuestion)
+  }
 
   // Initialize display and update functions
   display_question(current_question_index);
