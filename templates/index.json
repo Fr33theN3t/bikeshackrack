@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image-with-text": {
@@ -22,7 +31,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -33,7 +42,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_-_journey.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -93,7 +101,7 @@
         "heading_8ULhiy": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Gear Up for Adventure<\/strong>",
+            "heading": "<strong>Gear Up for Adventure</strong>",
             "heading_size": "h1"
           }
         },
@@ -101,14 +109,14 @@
           "type": "button",
           "settings": {
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         },
         "text_9wjMfJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore our collection today and find the perfect companion for your next adventure, ensuring every ride is exhilarating and safe<\/p>",
+            "text": "<p>Explore our collection today and find the perfect companion for your next adventure, ensuring every ride is exhilarating and safe</p>",
             "text_style": "body"
           }
         }
@@ -120,7 +128,6 @@
         "text_9wjMfJ"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_-_victory.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -149,7 +156,7 @@
         "heading_f4xFxp": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Peak Performance<\/strong>",
+            "heading": "<strong>Peak Performance</strong>",
             "heading_size": "h1"
           }
         },
@@ -157,14 +164,14 @@
           "type": "button",
           "settings": {
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         },
         "text_TzBNhU": {
           "type": "text",
           "settings": {
-            "text": "<p>Perfect for ascending steep inclines or navigating rocky paths, they provide stability, comfort, and power on diverse terrains.<\/p>",
+            "text": "<p>Perfect for ascending steep inclines or navigating rocky paths, they provide stability, comfort, and power on diverse terrains.</p>",
             "text_style": "body"
           }
         }
@@ -176,7 +183,6 @@
         "text_TzBNhU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_-_close_up.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -225,7 +231,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>\"I recently purchased a mountain bike from this store and I couldn't be happier with my purchase! The staff were knowledgeable and helpful in guiding me to the right bike for my needs, and the selection of bikes was impressive. I've been out on the trails several times now and the bike performs beautifully. Thanks for a great experience!\" - <strong>Sarah T.<\/strong><\/p>",
+            "text": "<p>\"I recently purchased a mountain bike from this store and I couldn't be happier with my purchase! The staff were knowledgeable and helpful in guiding me to the right bike for my needs, and the selection of bikes was impressive. I've been out on the trails several times now and the bike performs beautifully. Thanks for a great experience!\" - <strong>Sarah T.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -234,7 +240,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>\"I've been a loyal customer of this mountain bike store for years, and for good reason. The staff are always friendly and willing to help with any questions I have, and the bikes are top-notch. I've purchased multiple bikes from them and have never been disappointed. They truly care about their customers and it shows in their service.\" <strong>- Mike R.<\/strong><\/p>",
+            "text": "<p>\"I've been a loyal customer of this mountain bike store for years, and for good reason. The staff are always friendly and willing to help with any questions I have, and the bikes are top-notch. I've purchased multiple bikes from them and have never been disappointed. They truly care about their customers and it shows in their service.\" <strong>- Mike R.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -243,7 +249,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>\"I had an amazing experience at this mountain bike store! I was new to mountain biking and the staff took the time to explain everything to me and help me find the perfect bike. They even gave me some tips for getting started on the trails. I've been hooked ever since and it's all thanks to this store!\" <strong>- Emily S.<\/strong><\/p>",
+            "text": "<p>\"I had an amazing experience at this mountain bike store! I was new to mountain biking and the staff took the time to explain everything to me and help me find the perfect bike. They even gave me some tips for getting started on the trails. I've been hooked ever since and it's all thanks to this store!\" <strong>- Emily S.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -325,6 +331,88 @@
       "settings": {
         "heading_text": "Spring sale! Take 20% off everything! Enter \"take20\" at checkout!"
       }
+    },
+    "custom_testimonials_slider_f7dzci": {
+      "type": "custom-testimonials-slider",
+      "blocks": {
+        "column_6gmp4y": {
+          "type": "column",
+          "settings": {
+            "title": "Road bike",
+            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
+            "image": "shopify://shop_images/woman-1.jpg",
+            "name": "Sophia",
+            "star_rating": 5
+          }
+        },
+        "column_e44Phf": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+            "image": "shopify://shop_images/man-1.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        },
+        "column_y9ijXm": {
+          "type": "column",
+          "settings": {
+            "title": "Mountain bike",
+            "text": "<p>I was searching for a durable mountain bike and found exactly what I needed at Bike Shack. The bike handles beautifully on rough trails and has really taken my weekend adventures to a new level. Super impressed with both the product and the service!</p>",
+            "image": "shopify://shop_images/woman-2.jpg",
+            "name": "Isabella",
+            "star_rating": 3.5
+          }
+        },
+        "column_4gLPT6": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+            "image": "shopify://shop_images/man-2.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        },
+        "column_wJkk7h": {
+          "type": "column",
+          "settings": {
+            "title": "Road bike",
+            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
+            "image": "shopify://shop_images/woman-3.jpg",
+            "name": "Marketing Manage",
+            "star_rating": 4.5
+          }
+        },
+        "column_TbdR6R": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+            "image": "shopify://shop_images/man-3.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "column_6gmp4y",
+        "column_e44Phf",
+        "column_y9ijXm",
+        "column_4gLPT6",
+        "column_wJkk7h",
+        "column_TbdR6R"
+      ],
+      "settings": {
+        "caption_text": "Testimonials",
+        "title": "What Our Customers Say",
+        "auto_play": 5,
+        "color_scheme": "",
+        "content_background_color": "#313131",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -336,6 +424,7 @@
     "multicolumn_QzYWQM",
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
-    "test_section_AhDD8f"
+    "test_section_AhDD8f",
+    "custom_testimonials_slider_f7dzci"
   ]
 }
