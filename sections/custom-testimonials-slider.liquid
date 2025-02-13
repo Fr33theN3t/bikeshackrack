@@ -69,14 +69,25 @@
                         {{ block.settings.name }}
                       </p>
                       <div class="star-rating">
-                        {% assign star_rating = block.settings.star_rating | round %}
+                      {% assign full_stars = block.settings.star_rating | floor %}
+                      {% for i in (1..full_stars) %}
+                        {% render 'icon-star-full' %}
+                      {% endfor %}
+
+                      {% assign half_stars = block.settings.star_rating | modulo: 1 %}
+
+                      {% unless half_stars == 0 %}
+                        {% render 'icon-star-half' %}
+                      {% endunless %}
+                      
+                        {% comment %} {% assign star_rating = block.settings.star_rating | round %}
                         {% for i in (1..5) %}
                           {% if i <= star_rating %}
                             {% include 'icon-star-full' %}
                           {% else %}
                             {% include 'icon-star-half' %}
                           {% endif %}
-                        {% endfor %}
+                        {% endfor %} {% endcomment %}
                       </div>
                     </div>
                   </div>
