@@ -40,13 +40,15 @@
      
 
       {%comment%} hardcoded slides for testing {%endcomment%}
-      <div class="testimonial-slide">
+      <div class="testimonial-slider">
           <div class="testimonial-slider__wrapper">
             {% for block in section.blocks %}
               <div class="testimonial-slide" {{ block.shopify_attributes }}>
                 <div class="content-container">
                   <div class="multicolumn-card__info">
+                    {% if block.settings.title != blank  %}
                     <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                    {% endif %}
                     <div class="rte">
                       {{ block.settings.text }}
                     </div>
@@ -54,9 +56,9 @@
                   <div class="profile-block">
                     <div class="profile-img">
                       {% if block.settings.image %}
-                        {{ block.settings.image | image_url: width: 48 | image_tag:
+                        {{ block.settings.image | image_url: width: 75 | image_tag:
                            loading: 'lazy',
-                           width: 48,
+                           width: 75,
                            height: 48,
                            class: 'profile-image'
                         }}
@@ -83,133 +85,6 @@
             {% endfor %}
           </div>
         </div>
-
-      {%comment%} hardcoded slide #2{%endcomment%}
-      <div class="testimonial-slide">
-          <div class="testimonial-slider__wrapper">
-            {% for block in section.blocks %}
-              <div class="testimonial-slide" {{ block.shopify_attributes }}>
-                <div class="content-container">
-                  <div class="multicolumn-card__info">
-                    <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-                    <div class="rte">
-                      {{ block.settings.text }}
-                    </div>
-                  </div>
-                  <div class="profile-block">
-                    <div class="profile-img">
-                      {% if block.settings.image %}
-                        {{ block.settings.image | image_url: width: 48 | image_tag:
-                           loading: 'lazy',
-                           width: 48,
-                           height: 48,
-                           class: 'profile-image'
-                        }}
-                      {% endif %}
-                    </div>
-                    <div class="title-wrap">
-                      <p class="name">
-                        {{ block.settings.name }}
-                      </p>
-                      <div class="star-rating">
-                        {% assign star_rating = block.settings.star_rating | round %}
-                        {% for i in (1..5) %}
-                          {% if i <= star_rating %}
-                            {% include 'icon-star-full' %}
-                          {% else %}
-                            {% include 'icon-star-half' %}
-                          {% endif %}
-                        {% endfor %}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-
-    {%comment%} hardcoded slide #3{%endcomment%}
-      <div class="testimonial-slide">
-        <div class="content-container">
-          <div class="multicolumn-card__info">
-            <h3 class="inline-richtext">THIRD BIKE TEST</h3>
-            <div class="rte">
-            
-              <p>
-              TEST 3
-                I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly
-                helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my
-                fitness goals. Thanks, Bike Shack, for such a fantastic experience!
-              </p>
-            
-            </div>
-          </div>
-          <div class="profile-block">
-            <div class="profile-img">
-
-              <img src="//master-js-course.myshopify.com/cdn/shop/files/woman-1.jpg?v=1713560490&amp;width=48" alt=""
-                srcset="//master-js-course.myshopify.com/cdn/shop/files/woman-1.jpg?v=1713560490&amp;width=48 48w" width="48"
-                height="48" loading="lazy" class="profile-image">
-
-            </div>
-            <div class="title-wrap">
-              <p class="name">
-                Lisa (TEST 3)
-              </p>
-              <div class="star-rating">
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    {%comment%} hardcoded slide #4{%endcomment%}
-      <div class="testimonial-slide">
-        <div class="content-container">
-          <div class="multicolumn-card__info">
-            <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-            <div class="rte">
-            
-              <p>
-              TEST 4
-                I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly
-                helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my
-                fitness goals. Thanks, Bike Shack, for such a fantastic experience!
-              </p>
-            
-            </div>
-          </div>
-          <div class="profile-block">
-            <div class="profile-img">
-
-              <img src="//master-js-course.myshopify.com/cdn/shop/files/woman-1.jpg?v=1713560490&amp;width=48" alt=""
-                srcset="//master-js-course.myshopify.com/cdn/shop/files/woman-1.jpg?v=1713560490&amp;width=48 48w" width="48"
-                height="48" loading="lazy" class="profile-image">
-
-            </div>
-            <div class="title-wrap">
-              <p class="name">
-                Anna (TEST 4)
-              </p>
-              <div class="star-rating">
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                {% include 'icon-star-full' %}
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {%comment%} END hardcoded slides for testing {%endcomment%}
 
