@@ -1,4 +1,17 @@
+
 // initialize slideshow
+const slider_html = document.querySelector(".testimonial-slider__wrapper");
+
+const slider = new Flickity(slider_html, {
+	// options
+	cellAlign: "left",
+	wrapAround: true,
+	autoPlay: false,
+	pageDots: false,
+	fullscreen: true,
+    pauseAutoPlayOnHover: false,
+    // events
+});
 
 // config:
 // assume there is just one single slider on the page
