@@ -2,7 +2,7 @@
 {{- 'flickity.css' | asset_url | stylesheet_tag -}}
 {{- 'flickity.pkgd.min.js' | asset_url | script_tag -}}
 {{- 'custom-testimonials-slider.css' | asset_url | stylesheet_tag -}}
-<script src="{{ 'custom-testimonials-slider.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'custom-testimonials-slider.js' | asset_url }}" type="module" defer="defer"></script>
 
 {%- style -%}
   .custom-testimonials-{{ section.id }} {
@@ -35,11 +35,11 @@
       </div>
     {%- endunless -%}
     
-    <div class="testimonial-slider" data-autoplay="{{section.settings.auto_play | times:1000}}">
+    <div class="testimonial-slider">
       
       {%comment%} hardcoded slides for testing {%endcomment%}
       
-          <div class="testimonial-slider__wrapper">
+          <div class="testimonial-slider__wrapper" data-autoplay="{{section.settings.auto_play | times:1000}}">
             {% for block in section.blocks %}
               <div class="testimonial-slide" {{ block.shopify_attributes }}>
                 <div class="content-container">
@@ -85,8 +85,10 @@
             {% endfor %}
           </div>
     </div>
-  </div>
+
+
 </div>
+  </div>
 
 {% schema %}
 {
