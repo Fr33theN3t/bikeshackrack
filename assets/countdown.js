@@ -17,7 +17,7 @@ class CountDownTimer extends HTMLElement {
 
       // Check if the date is valid
       if (isNaN(this.endDate)) {
-        throw new Error('Invalid date format');
+        throw new Error('Invalid date format'); 
       }
     } catch (error) {
       console.error('Error parsing countdown date:', error);
@@ -48,10 +48,10 @@ class CountDownTimer extends HTMLElement {
       this.countdownText.textContent = "This countdown has ended!";
 
       // Clear all time displays
-      this.daysContainer.innerHTML = `<span class="count">0</span><span class="label">&nbsp;Days</span>`;
-      this.hoursContainer.innerHTML = `<span class="count">0</span><span class="label">&nbsp;Hours</span>`;
-      this.minutesContainer.innerHTML = `<span class="count">0</span><span class="label">&nbsp;Minutes</span>`;
-      this.secondsContainer.innerHTML = `<span class="count">0</span><span class="label">&nbsp;Seconds</span>`;
+      this.daysContainer.innerHTML = `<span class="count">0</span><span class="label">Days</span>`;
+      this.hoursContainer.innerHTML = `<span class="count">0</span><span class="label">Hours</span>`;
+      this.minutesContainer.innerHTML = `<span class="count">0</span><span class="label">Minutes</span>`;
+      this.secondsContainer.innerHTML = `<span class="count">0</span><span class="label">Seconds</span>`;
       clearInterval(this.timerInterval);
       return;
     }
