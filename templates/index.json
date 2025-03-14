@@ -329,30 +329,17 @@
         "padding_bottom": 36
       }
     },
-    "custom_testimonials_slider_mhpJwE": {
-      "type": "custom-testimonials-slider",
-      "blocks": {
-        "column_xekkqB": {
-          "type": "column",
+
           "settings": {
-            "title": "Road bike",
-            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
-            "image": "shopify://shop_images/woman-1.jpg",
-            "name": "Sophia",
-            "star_rating": 5
+            "title": "Mountain bike",
+            "text": "<p>I was searching for a durable mountain bike and found exactly what I needed at Bike Shack. The bike handles beautifully on rough trails and has really taken my weekend adventures to a new level. Super impressed with both the product and the service!</p>",
+            "image": "shopify://shop_images/woman-2.jpg",
+            "name": "Isabella",
+            "star_rating": 3.5
           }
-        },
-        "column_3AXLCc": {
-          "type": "column",
-          "settings": {
-            "title": "Hybrid bike",
-            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
-            "image": "shopify://shop_images/man-1.jpg",
-            "name": "Ethan",
-            "star_rating": 5
-          }
-        },
-        "column_NrGR37": {
+},
+
+        "column_y9ijXm": {
           "type": "column",
           "settings": {
             "title": "Mountain bike",
@@ -363,6 +350,17 @@
           }
         },
         "column_UpKywU": {
+         "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+            "image": "shopify://shop_images/man-2.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+  },
+
+        "column_4gLPT6": {
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -373,6 +371,16 @@
           }
         },
         "column_K6NaiQ": {
+"type": "column",
+          "settings": {
+            "title": "Road bike",
+            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
+            "image": "shopify://shop_images/woman-3.jpg",
+            "name": "Marketing Manage",
+            "star_rating": 4.5
+          }
+        },
+
           "type": "column",
           "settings": {
             "title": "Road bike",
@@ -382,7 +390,18 @@
             "star_rating": 4.5
           }
         },
+
         "column_VJy9gB": {
+  "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+            "image": "shopify://shop_images/man-3.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+  },
+        "column_TbdR6R": {
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -394,12 +413,20 @@
         }
       },
       "block_order": [
-        "column_xekkqB",
-        "column_3AXLCc",
-        "column_NrGR37",
-        "column_UpKywU",
-        "column_K6NaiQ",
-        "column_VJy9gB"
+"block_order": [
+  "column_xekkqB",
+  "column_6gmp4y",
+  "column_3AXLCc",
+  "column_e44Phf",
+  "column_NrGR37",
+  "column_y9ijXm",
+  "column_UpKywU",
+  "column_4gLPT6",
+  "column_K6NaiQ",
+  "column_wJkk7h",
+  "column_VJy9gB",
+  "column_TbdR6R"
+]
       ],
       "settings": {
         "caption_text": "Testimonials",
@@ -410,96 +437,89 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "countdown_dpndep": {
-      "type": "countdown",
+"custom_testimonials_slider_mhpJwE": {
+  "type": "custom-testimonials-slider",
+  "blocks": {
+    "column_xekkqB": {
+      "type": "column",
       "settings": {
-        "text": "Spring Sale! Save up to 20%",
-        "final_date": "May 25, 2026 16:37:52 EST"
+        "title": "Road bike",
+        "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
+        "image": "shopify://shop_images/woman-1.jpg",
+        "name": "Sophia",
+        "star_rating": 5
       }
     },
-    "custom_testimonials_slider_qYDFUp": {
-      "type": "custom-testimonials-slider",
-      "blocks": {
-        "column_ADHEfm": {
-          "type": "column",
-          "settings": {
-            "title": "Road bike",
-            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
-            "image": "shopify://shop_images/woman-1.jpg",
-            "name": "Sophia",
-            "star_rating": 5
-          }
-        },
-        "column_dPFUaX": {
-          "type": "column",
-          "settings": {
-            "title": "Hybrid bike",
-            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
-            "image": "shopify://shop_images/man-1.jpg",
-            "name": "Ethan",
-            "star_rating": 5
-          }
-        },
-        "column_KqwgPh": {
-          "type": "column",
-          "settings": {
-            "title": "Mountain bike",
-            "text": "<p>I was searching for a durable mountain bike and found exactly what I needed at Bike Shack. The bike handles beautifully on rough trails and has really taken my weekend adventures to a new level. Super impressed with both the product and the service!</p>",
-            "image": "shopify://shop_images/woman-2.jpg",
-            "name": "Isabella",
-            "star_rating": 3.5
-          }
-        },
-        "column_qzVbby": {
-          "type": "column",
-          "settings": {
-            "title": "Hybrid bike",
-            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
-            "image": "shopify://shop_images/man-2.jpg",
-            "name": "Ethan",
-            "star_rating": 5
-          }
-        },
-        "column_T8GaaA": {
-          "type": "column",
-          "settings": {
-            "title": "Road bike",
-            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
-            "image": "shopify://shop_images/woman-3.jpg",
-            "name": "Marketing Manage",
-            "star_rating": 4.5
-          }
-        },
-        "column_qk4iar": {
-          "type": "column",
-          "settings": {
-            "title": "Hybrid bike",
-            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
-            "image": "shopify://shop_images/man-3.jpg",
-            "name": "Ethan",
-            "star_rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "column_ADHEfm",
-        "column_dPFUaX",
-        "column_KqwgPh",
-        "column_qzVbby",
-        "column_T8GaaA",
-        "column_qk4iar"
-      ],
+    "column_3AXLCc": {
+      "type": "column",
       "settings": {
-        "caption_text": "Testimonials",
-        "title": "Top reviews",
-        "auto_play": 5,
-        "color_scheme": "",
-        "content_background_color": "#313131",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Hybrid bike",
+        "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+        "image": "shopify://shop_images/man-1.jpg",
+        "name": "Ethan",
+        "star_rating": 5
+      }
+    },
+    "column_NrGR37": {
+      "type": "column",
+      "settings": {
+        "title": "Mountain bike",
+        "text": "<p>I was searching for a durable mountain bike and found exactly what I needed at Bike Shack. The bike handles beautifully on rough trails and has really taken my weekend adventures to a new level. Super impressed with both the product and the service!</p>",
+        "image": "shopify://shop_images/woman-2.jpg",
+        "name": "Isabella",
+        "star_rating": 3.5
+      }
+    },
+    "column_UpKywU": {
+      "type": "column",
+      "settings": {
+        "title": "Hybrid bike",
+        "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+        "image": "shopify://shop_images/man-2.jpg",
+        "name": "Ethan",
+        "star_rating": 5
+      }
+    },
+    "column_K6NaiQ": {
+      "type": "column",
+      "settings": {
+        "title": "Road bike",
+        "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!</p>",
+        "image": "shopify://shop_images/woman-3.jpg",
+        "name": "Marketing Manager",
+        "star_rating": 4.5
+      }
+    },
+    "column_VJy9gB": {
+      "type": "column",
+      "settings": {
+        "title": "Hybrid bike",
+        "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!</p>",
+        "image": "shopify://shop_images/man-3.jpg",
+        "name": "Ethan",
+        "star_rating": 5
       }
     }
+  },
+  "block_order": [
+    "column_xekkqB",
+    "column_3AXLCc",
+    "column_NrGR37",
+    "column_UpKywU",
+    "column_K6NaiQ",
+    "column_VJy9gB"
+  ],
+  "settings": {
+    "caption_text": "Testimonials",
+    "title": "Top reviews",
+    "auto_play": 2,
+    "color_scheme": "",
+    "content_background_color": "#313131",
+    "padding_top": 36,
+    "padding_bottom": 36
+  }
+}
+    
   },
   "order": [
     "image-with-text",
@@ -511,7 +531,6 @@
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
     "custom_testimonials_slider_mhpJwE",
-    "countdown_dpndep",
-    "custom_testimonials_slider_qYDFUp"
+
   ]
 }
