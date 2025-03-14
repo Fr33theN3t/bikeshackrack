@@ -3,11 +3,7 @@ class CountDownTimer extends HTMLElement {
     super();
 
     //Grab required elements
-    this.countdownText = this.querySelector(".countdown-text");
-    this.daysContainer = this.querySelector(".days");
-    this.hoursContainer = this.querySelector(".hours");
-    this.minutesContainer = this.querySelector(".minutes");
-    this.secondsContainer = this.querySelector(".seconds");
+
 
     // Get end date from data attribute
     const endDateAttribute = this.querySelector('.countdown-timer').dataset.endDate;
@@ -27,19 +23,16 @@ class CountDownTimer extends HTMLElement {
     // bind this keyword to our function
     this.handleTick = this.handleTick.bind(this);
 
+    // Set Date
+    this.endDateString = "May 25, 2026 16:37:52 EST";
+    this.endDate = new Date(this.endDateString).getTime();
+
+
     // Start timer
-    this.startTimer();
-  }
-
-  startTimer() {
-    // Update immediately on load
-    this.handleTick();
-
-    // Then update every second
-    this.timerInterval = setInterval(this.handleTick, 1000);
   }
 
   handleTick() {
+
     // Logic and update elements
     const now = new Date().getTime();
     const timeLeft = this.endDate - now;
@@ -74,9 +67,10 @@ class CountDownTimer extends HTMLElement {
     if (this.timerInterval) {
       clearInterval(this.timerInterval);
     }
+
+    //logic and update elements
+
   }
 }
 
-if (!customElements.get('countdown-timer')) {
-  customElements.define("countdown-timer", CountDownTimer);
-}
+customElements.define("countdown-timer", CountDownTimer);

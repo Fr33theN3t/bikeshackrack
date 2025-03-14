@@ -1,0 +1,207 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_NxCxei": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kBhDhq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing DRX-3",
+            "heading_size": "h1"
+          }
+        },
+        "text_dWRnyP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kBhDhq",
+        "text_dWRnyP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    },
+    "image_banner_HLhfCc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bike_Helmets.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_nrKcYq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XAqikz": {
+          "type": "heading",
+          "settings": {
+            "heading": "State of the Art Safety",
+            "heading_size": "h1"
+          }
+        },
+        "text_3aWiUj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing the DRX 3: our latest innovation in mountain biking safety. It’s built with state-of-the-art shock absorption and enhanced structural integrity, plus an innovative adjustable neck support that redefines comfort and protection on the trails.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_qGV6Xh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order Now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XAqikz",
+        "text_3aWiUj",
+        "button_qGV6Xh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/drx3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_DhPz8n": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Why We Wear Helmets",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/why we wear helmets.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_tracking_video_gbBrRr": {
+      "type": "custom-tracking-video",
+      "settings": {
+        "heading": "Why We Wear Helmets",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/why we wear helmets.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_hjwfcn": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qdBnTk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What safety features does the DRX 3 helmet include?",
+            "icon": "check_mark",
+            "row_content": "<p>The DRX 3 features advanced shock absorption technology, superior structural integrity, and an innovative adjustable neck support system for unmatched protection.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ahPXaa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the DRX 3 comfortable for long rides?",
+            "icon": "check_mark",
+            "row_content": "<p>Absolutely! The DRX 3 is designed with a memory foam neck padding that contours to your shape, ensuring comfort throughout even the longest rides.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kBHqNt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I adjust the fit of the DRX 3 helmet?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, the DRX 3 comes with an adjustable neck support and a customizable fit system that allows you to achieve the perfect fit easily.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_n9CBb4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the DRX 3 helmet easy to maintain?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, the DRX 3 includes removable and washable padding, making it easy to keep the helmet clean and fresh after every ride.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qdBnTk",
+        "collapsible_row_ahPXaa",
+        "collapsible_row_kBHqNt",
+        "collapsible_row_n9CBb4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_NxCxei",
+    "image_banner_HLhfCc",
+    "image_with_text_nrKcYq",
+    "video_DhPz8n",
+    "custom_tracking_video_gbBrRr",
+    "collapsible_content_hjwfcn"
+  ]
+}
