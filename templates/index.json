@@ -329,12 +329,6 @@
         "padding_bottom": 36
       }
     },
-    "test_section_AhDD8f": {
-      "type": "test-section",
-      "settings": {
-        "heading_text": "Spring sale! Take 20% off everything! Enter \"take20\" at checkout!"
-      }
-    },
     "custom_testimonials_slider_mhpJwE": {
       "type": "custom-testimonials-slider",
       "blocks": {
@@ -415,6 +409,13 @@
         "content_background_color": "#313131",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "countdown_dpndep": {
+      "type": "countdown",
+      "settings": {
+        "text": "Spring Sale! Save up to 20%",
+        "final_date": "May 25, 2026 16:37:52 EST"
       }
     },
     "custom_testimonials_slider_qYDFUp": {
@@ -509,8 +510,8 @@
     "multicolumn_QzYWQM",
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
-    "test_section_AhDD8f",
     "custom_testimonials_slider_mhpJwE",
+    "countdown_dpndep",
     "custom_testimonials_slider_qYDFUp"
   ]
 }
