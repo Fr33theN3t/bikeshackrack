@@ -351,15 +351,16 @@
     {%- endif -%}
     
     {% comment %} {% if template == 'product' %}
+      
       <script>
-          document.addEventListener('afterVariantChange', handleVariantChange)
+          // document.addEventListener('afterVariantChange', handleVariantChange)
 
-          function handleVariantChange(event){
-            console.log('New variant:', event.detail.newVariant);
-          }
+          // function handleVariantChange(event){
+          //   console.log('New variant:', event.detail.newVariant);
+          // }
           
       </script>
-    {% endif %} {% endcomment %}
+    {% endif %}  {% endcomment %}
 
   </body>
 </html>
